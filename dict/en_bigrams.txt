@@ -1,0 +1,45 @@
+how	are you	to	is	do	much	many
+thank	you	so much	very much
+thanks	a lot	for	again
+what	is	are	do	you	happened
+who	is	are	was
+where	are	is	do	can
+when	will	can	is	do
+why	not	do	is	are
+i	am	have	would	think	want	will	can
+you	are	can	have	know	want	will
+we	are	can	have	need	will
+they	are	have	were	will
+he	is	was	has	said	will
+she	is	was	has	said	will
+good	morning	afternoon	evening	job	luck	idea
+have	a nice day	a great	fun	to	been
+see	you	it	later	soon
+nice	to meet you	work	day
+please	let me know	help	find	check
+it	is	was	will	would	seems
+there	is	are	will	was
+this	is	was	one	week	month
+that	is	was	would	sounds
+let	me know	us go	me see
+of	course	the	all
+in	the	my	this	fact
+at	the	all	least	home
+on	the	my	time	it
+for	you	the	example	now
+with	you	me	the	them
+function	returns	takes	works	should	will	can	calls
+functions	in	for	and	were	can
+geolocation	is	enabled	disabled	data	service
+code	works	runs	is	was	written
+system	is	running	ready	settings
+file	is	saved	opened	not found	config
+server	is	running	down	connected	started
+client	is	connected	disconnected	ready
+message	sent	received	deleted	error
+project	is	ready	built	created	opened
+application	is	running	started	closed	updated
+today	is	we	i	will	at
+tomorrow	morning	will	we	i
+yesterday	was	i	we	evening
+now	we	i	will	is

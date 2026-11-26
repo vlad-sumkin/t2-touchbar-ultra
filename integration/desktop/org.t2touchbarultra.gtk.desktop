@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=T2 Touchbar Ultra
+Name[ru]=T2 Touchbar Ultra
+Comment=Configure Touch Bar layers, gestures, theme, custom keys and MechPad switch haptics
+Comment[ru]=Настройка Touch Bar, жестов, темы, кнопок и механического отклика клавиатуры
+Exec=t2-touchbar-ultra-settings
+TryExec=t2-touchbar-ultra-settings
+Icon=org.t2touchbarultra.gtk
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=Touch Bar;MechPad;Haptic;T2;MacBook;Settings;Тачбар;Клавиатура;
+StartupNotify=true

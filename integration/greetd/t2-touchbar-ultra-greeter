@@ -1,0 +1,23 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# t2-touchbar-ultra-greeter: Wraps a greetd greeter command (e.g. cage / regreet / tuigreet)
+# to show Touch Bar Function keys (Esc, F1..F12) on the login screen.
+
+/usr/bin/t2-touchbar-ultra --greeter &
+TB_PID=$!
+
+cleanup() {
+    if [ -n "$TB_PID" ]; then
+        kill -TERM "$TB_PID" 2>/dev/null
+        wait "$TB_PID" 2>/dev/null
+    fi
+}
+
+trap cleanup EXIT TERM INT HUP
+
+printf '\033c\033[2J\033[3J\033[H'
+
+"$@"
+RET=$?
+exit $RET

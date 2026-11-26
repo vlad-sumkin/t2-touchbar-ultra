@@ -1,0 +1,31 @@
+[Unit]
+Description=T2 Touchbar Ultra
+After=graphical-session.target
+PartOf=graphical-session.target
+StartLimitIntervalSec=30
+StartLimitBurst=5
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/t2-touchbar-ultra
+Restart=on-failure
+RestartSec=2
+
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=false
+PrivateTmp=true
+PrivateIPC=true
+ProtectKernelTunables=true
+ReadWritePaths=-/sys/class/backlight/t2tb_backlight/brightness
+ReadWritePaths=-/sys/class/backlight/appletb_backlight/brightness
+ReadWritePaths=-/sys/module/t2_trackpad_actuator/parameters/play
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX AF_NETLINK AF_INET AF_INET6
+RestrictNamespaces=true
+RestrictSUIDSGID=true
+
+[Install]
+WantedBy=graphical-session.target
