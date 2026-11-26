@@ -1,0 +1,54 @@
+# T2 Touchbar Ultra configuration
+minimum_timeout_ms = 5000
+maximum_timeout_ms = 30000
+continuation_window_ms = 15000
+fn_long_press_ms = 600
+
+# Panel brightness and status bar
+active_brightness = 128
+idle_status_bar = true
+pixel_shift = true
+physical_escape = true
+
+# Touch Bar & MechPad mechanical keyboard haptics
+haptic_feedback = true
+haptic_touch_up = true
+haptic_release_gap_ms = 140
+haptic_mute_with_audio = true
+haptic_keyboard = true
+# Available switch profiles:
+#   "cherry-mx-blue", "cherry-mx-brown", "cherry-mx-red",
+#   "holy-panda", "topre-45g", "ibm-model-m", "gateron-oil-king"
+haptic_keyboard_profile = "cherry-mx-blue"
+haptic_keyboard_intensity = 0.85
+haptic_keyboard_key_up = true
+haptic_keyboard_acoustics = true
+
+# Key glyph color & fonts
+key_color = "#dce6ff"
+# font_family = "Adwaita Sans"
+font_size = 32.0
+status_font_size = 36.0
+
+# Multi-finger swipes and touch windows
+two_finger_window_ms = 100
+idle_gesture_window_ms = 2000
+two_finger_brightness = true
+volume_swipe_step_px = 10
+brightness_swipe_step_px = 10
+mode_swipe_px = 1000
+
+# Keyboard backlight synchronization
+follow_keyboard_backlight = true
+minimum_brightness = 64
+activity_backlight = true
+activity_timeout_ms = 30000
+
+# Smart features
+show_track_changes = true
+predictive_typing = true
+clipboard_history = true
+clipboard_timeout_sec = 30
+word_lookup = true
+word_lookup_delay_ms = 3000
+word_lookup_timeout_sec = 60

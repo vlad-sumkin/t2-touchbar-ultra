@@ -1,0 +1,49 @@
+# T2 Touchbar Ultra color theme (live reload enabled)
+# Hex formats supported: "#RGB", "#RRGGBB", "#RRGGBBAA".
+# Commented fields use built-in defaults.
+
+[keys]
+# color = "#dce6ff"
+# esc_color = "#ff8c00"
+# active_color = "#ff8c00"
+# suggestion_match_color = "#ffd60a"
+
+[status.clock]
+# time = "#dce6ff"
+# date = "#dce6ff"
+
+[status.center]
+# window_title = "#dce6ff"
+# workspace = "#dce6ff"
+# media_title = "#dce6ff"
+# marquee_separator = "#dce6ff"
+
+[status.media_bar]
+# capsule_bg = "#000000"
+# progress_fill = "#dce6ff"
+# needle = "#ff8c00"
+
+[status.battery]
+plugged = "#009fff"
+# charging = "#00e676"
+# normal = "#dce6ff"
+# warning = "#ff8c00"
+# critical = "#ff3b30"
+
+[status.sysmon]
+# cpu = "#dce6ff"
+# ram = "#dce6ff"
+# temp = "#dce6ff"
+
+[status.hardware]
+# volume = "#dce6ff"
+# volume_muted = "#ff3b30"
+# brightness = "#dce6ff"
+# keyboard_layout = "#dce6ff"
+
+[levels]
+# level_meter = "#dce6ff"
+# level_text = "#dce6ff"
+
+[track_popup]
+# color = "#dce6ff"
